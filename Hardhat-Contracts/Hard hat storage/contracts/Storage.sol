@@ -57,7 +57,7 @@ contract Storage {
       return list[idOf[msg.sender]];
    }
 
-   function getStudentName() external view returns (uint256) {
+   function getStudentName() external view returns (string memory) {
       Student memory student = list[idOf[msg.sender]];
       return student.name;
    }
@@ -67,7 +67,7 @@ contract Storage {
       return student.age;
    }
 
-   function getStudentGender() external view returns (uint256) {
+   function getStudentGender() external view returns (string memory) {
       Student memory student = list[idOf[msg.sender]];
       return student.gender;
    }
