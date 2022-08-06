@@ -1,5 +1,5 @@
-## Hello World
+## Remix Contracts
 
-## simple Storage
+## Local Smart contracts
 
-## Fundme
+## Hardhat Contracts
