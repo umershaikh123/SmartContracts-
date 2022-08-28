@@ -1,5 +1,4 @@
-## Remix Contracts
+# Smart contracts
 
-## Local Smart contracts
 
-## Hardhat Contracts
+ 
