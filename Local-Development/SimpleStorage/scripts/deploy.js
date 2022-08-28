@@ -3,7 +3,7 @@ const fs = require("fs-extra")
 require("dotenv").config()
 
 async function main() {
-   const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL)
+   const provider = new ethers.providers.JsonRpcProvider(RLprocess.env.RPC_U)
 
    const encryptedJson = fs.readFileSync("./.encryptedKey.json", "utf8")
    let wallet = new ethers.Wallet.fromEncryptedJsonSync(

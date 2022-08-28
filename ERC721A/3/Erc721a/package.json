@@ -1,0 +1,10 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "erc721a": "^4.2.2"
+  }
+}

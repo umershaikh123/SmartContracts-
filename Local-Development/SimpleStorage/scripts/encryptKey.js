@@ -18,3 +18,8 @@ main()
       console.error(error)
       process.exit(1)
    })
+
+// put private key in env file
+// yarn run scripts/encryptedKey.js
+// remove private key from env file
+// PRIVATE_KEY_PASSWORD=yourPassword yarn run scripts/encryptedKey.js
